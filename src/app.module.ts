@@ -8,8 +8,9 @@ import {CollectionsModule} from './collections/collections.module';
 import {MongooseModule} from '@nestjs/mongoose';
 import {ConfigModule, ConfigService} from '@nestjs/config';
 
-const config = new ConfigService();
-const uri = config.get('MONGODB_URI');
+// const config = new ConfigService();
+// const uri = config.get('MONGODB_URI');
+const uri = 'mongodb+srv://rahat664:rahatn664@cluster0.ejev0.mongodb.net/aimart?retryWrites=true&w=majority';
 
 @Module({
   imports: [
