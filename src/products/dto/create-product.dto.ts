@@ -3,7 +3,7 @@ export class CreateProductDto {
     price: number;
     image: File;
     imageUrl: string;
-    tags: string[];
+    tags: string;
 }
 
 // Language: typescript
